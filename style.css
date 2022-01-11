@@ -1,3 +1,4 @@
+/*General*/
 *{
     margin: 0px;
 
@@ -15,6 +16,8 @@ img:hover{
 .img{
     transition: padding 15px ease-out;
 }
+
+/*navbar*/
 .navbar{
     width: auto;
     height: 11%;
@@ -88,6 +91,14 @@ margin-left:20px;
     color: silver;
     margin-left: 10px;
 }
+.bk-light{
+    margin-left:590px;
+    justify-items: center;
+    color: snow;
+    border: none;
+    width:auto;
+    
+}
 .card{
    height: 58%; 
    width: 12%;
@@ -117,13 +128,13 @@ margin-left:20px;
     font-size: 12px;
     color: slategrey;
 }
-.light1{
-    padding-bottom:55px;
-}
+
+
+/*Books and music section*/
+
+
 .bk-dark{
     float: right;
-    justify-content: center;
-    border-radius: 5px;
     color: snow;
     border: none;
     width:auto;
