@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+img:hover{
+    padding: 5PX;
+}
+.img{
+    transition: padding 15px ease-out;
+}
+.navbar{
+    width: auto;
+    height: 11%;
+    justify-items: center;
+}
+
+.form-control{
+    height: 38px;
+    width: 352px;
+    border-radius: none;
+}
+.value{
+    border: none;
+    background: none;
+    margin:0;
+}
+
+.m1{
+    
+    border:none;
+    background: none;
+    margin-left: 195px;
+    position: relative;
+}
+.btn{
+    
+    color: blue;
+    margin-left:-40px;
+    
+}
+.cart{
+    font-size:16px;
+    margin-left:15px;
+    color: whitesmoke;
+    border: none;
+    background:none;
+    
+}
+.nav-link{
+  margin-left: 15px;
+  color: aliceblue;
+ 
+}
+
+.b1{
+border: none;
+width: 100px;
+height: 35px;
+margin-left: 125px;
+float: right;
+color: blue;
+}
+
+/*Deals of the day*/
+.light{
+color: lightslategray;
+ line-height:normal;
+opacity:0.2;
+}
+
+.text{
+    font-size: 25px;
+    margin-left:5px;
+}
+ 
+.clock{
+margin-left:20px;
+}
+
+.time{
+    color: silver;
+    margin-left: 10px;
+}
+.card{
+   height: 58%; 
+   width: 12%;
+   border: 1 px solid gold;
+    margin-top:-90px;
+    margin-left: 1045px;
+    position:absolute;
+    z-index: 0;
+}
+.well h9{
+    font-size: 176x;
+    line-height: 35px;
+    position: relative;
+    margin-bottom: 10px;
+    max-width: 250px;
+    
+}
+.well .offers {
+    color: green;
+    font-size: 13px;
+    max-width:12px;
+    line-height: 12px;
+    padding: 12px 0 6px;
+}
+.well p{
+    margin-top: 12px;
+    font-size: 12px;
+    color: slategrey;
+}
+.light1{
+    padding-bottom:55px;
+}
+.bk-dark{
+    float: right;
+    justify-content: center;
+    border-radius: 5px;
+    color: snow;
+    border: none;
+    width:auto;
+}
+.shop{
+    color: slategrey;
+    margin-left: 5px;
+    margin-top: -15px;
+    font-size: 13px;
+}
