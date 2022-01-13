@@ -1,1 +1,167 @@
+/*General*/
 
+.body {
+  margin: 0px;
+  padding: 0px;
+}
+
+img:hover {
+  padding: 5px;
+}
+img {
+  transition: padding 1px ease 0.5s;
+}
+
+/*navbar*/
+.navbar {
+  width: auto;
+  height: auto;
+  justify-items: center;
+  display: inline;
+}
+.form-control {
+  height: 38px;
+  width: 420px;
+  border-radius: none;
+  margin-right: 0px !important;
+  padding-right: 0px;
+}
+.value {
+  border: none;
+  background: none;
+  margin: 0;
+}
+
+.logo {
+  border: none;
+  background: none;
+  margin-left: 195px;
+  position: relative;
+}
+.btn {
+  color: blue;
+  margin-left: -40px;
+}
+.cart {
+  font-size: 16px;
+  margin-right:20px;
+  margin-left:-58px;
+  color: whitesmoke;
+  border: none;
+  background: none;
+}
+
+.b1 {
+  border: none;
+  width: 100px;
+  height: 35px;
+  margin-right: 90px;
+  color: blue;
+}
+
+.nav-link {
+  color: aliceblue;
+  margin-right: 130px;
+  margin-left: -75px;
+  }
+.Deal-section{
+  box-sizing: border-box;
+}
+/*Deals of the day*/
+.light {
+  color: lightslategray;
+  line-height: normal;
+  opacity: 0.2;
+}
+
+h7:hover {
+  color: #0277bd;
+}
+
+.text {
+  font-size: 25px;
+  margin-left: 5px;
+}
+
+.clock {
+  margin-left: 20px;
+}
+
+.time {
+  color: silver;
+  margin-left: 10px;
+}
+.bk-light:hover {
+  padding: 5px;
+}
+.bk-light {
+  margin-left: 550px;
+  justify-items: center;
+  padding: 8px;
+  font-size: 11px;
+  border-radius: 2px;
+  color: snow;
+  border: none;
+  width: 80px;
+  transition: padding 15px ease-out;
+}
+.card {
+  width:22%;
+  height: 35%;
+  border: none;
+  margin-top: -340px;
+  margin-left: 1000px;
+  position: relative;
+  z-index: 0;
+}
+.well h9 {
+  font-size: 176x;
+  line-height: 35px;
+  position: relative;
+  margin-bottom: 10px;
+  max-width: 250px;
+}
+.well .offers {
+  color: green;
+  font-size: 13px;
+  max-width: 12px;
+  line-height: 12px;
+  padding: 12px 0 6px;
+}
+.well p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: slategrey;
+}
+.deals{
+  box-sizing: border-box;
+  
+}
+.box{
+  background: white;
+  padding:2em;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0,0,0,.20);
+}
+
+/*Books and music section*/
+
+.bk-dark {
+  padding: 8px;
+  font-size: 11px;
+  border-radius: 2px;
+  float: right;
+  color: snow;
+  border: none;
+  width: 80px;
+  transition: padding 15px ease 0.5s;
+}
+.bk-dark:hover {
+  padding: 5px;
+}
+.shop {
+  color: slategrey;
+  margin-left: 5px;
+  margin-top: -15px;
+  font-size: 13px;
+}
