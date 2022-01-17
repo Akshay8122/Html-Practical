@@ -72,6 +72,7 @@ img {
   color: lightslategray;
   line-height: normal;
   opacity: 0.2;
+
 }
 
 h7:hover {
@@ -141,7 +142,7 @@ h7:hover {
   background: white;
   padding:2em;
   position: relative;
-  box-shadow: 0 5px 20px rgba(0,0,0,.20);
+  box-shadow: 0 5px 20px rgba(0,0,0,.15);
 }
 
 /*Books and music section*/
