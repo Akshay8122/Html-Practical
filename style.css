@@ -44,8 +44,8 @@ img {
 }
 .cart {
   font-size: 16px;
-  margin-right:20px;
-  margin-left:-58px;
+  margin-right: 20px;
+  margin-left: -58px;
   color: whitesmoke;
   border: none;
   background: none;
@@ -63,30 +63,38 @@ img {
   color: aliceblue;
   margin-right: 130px;
   margin-left: -75px;
-  }
-.Deal-section{
+}
+.Deal-section {
   box-sizing: border-box;
 }
-/*Deals of the day*/
-.light{
-  color: lightslategray;
-  line-height: normal;
-  opacity: 0.2;
-  margin-top:-30px;
-
+.caption p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  justify-content: center;
 }
 
-h7:hover {
+.caption:hover {
   color: #0277bd;
 }
 
-.text {
+/*Deals of the day*/
+.light {
+  color: lightslategray;
+  line-height: normal;
+  opacity: 0.2;
+  margin-top: -30px;
+}
+.text1 {
   font-size: 25px;
   margin-left: 5px;
 }
 
 .clock {
   margin-left: 20px;
+  height: 6%;
+  width: 2%;
 }
 
 .time {
@@ -97,8 +105,8 @@ h7:hover {
   padding: 5px;
 }
 .bk-light {
- margin-left: 550px; 
- padding: 8px;
+  margin-left: 550px;
+  padding: 8px;
   margin-bottom: 35px;
   font-size: 11px;
   border-radius: 2px;
@@ -108,52 +116,68 @@ h7:hover {
   transition: padding 15px ease-out;
 }
 .card {
-  width:18%;
-  height:30%;
+  height: 60%;
+  width: 29%;
+  /* width: 200px; */
+  /* height: 450px; */
+  margin-top: -382px;
   border: none;
-  margin-top: -45px;
-  margin-left: 1000px;
-  position: absolute;
+  margin-left: 998px;
+  position: relative;
   z-index: 0;
 }
-.well h9 {
-  font-size: 176x;
-  line-height: 35px;
+.caption1 {
+  font-weight: 380;
+  font-size: 18px;
+  line-height: 25px;
   position: relative;
-  margin-bottom: 10px;
-  max-width: 250px;
+  margin-top: 22px;
+  justify-content: center;
 }
 .well .offers {
   color: green;
-  font-size: 13px;
+  font-weight: 300;
+  font-size: 17px;
   max-width: 12px;
-  line-height: 12px;
-  padding: 12px 0 6px;
+  line-height: 14px;
+  padding: 4px 0 2px;
 }
-.well p {
-  margin-top: 12px;
-  font-size: 12px;
+
+.text {
+  font-size: 15px;
   color: slategrey;
 }
-.deals{
+.deals {
   box-sizing: border-box;
-  
+
 }
-.box{
+
+.box {
+  height: 400px;
+  width: 1020px;
+  margin-left: 15px;
   background: white;
-  padding:2em;
+  padding: 1em;
   position: relative;
-  box-shadow: 0 5px 20px rgba(0,0,0,.25);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 
 /*Books and music section*/
+.box1 {
+  width: 1290px;
+  height: 410px;
+  margin-left: 15px;
+  background: white;
+  padding: 1em;
+  position: relative;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
 
 .dark {
   color: lightslategray;
   line-height: normal;
   opacity: 0.2;
-  margin-top:-15px;
-
+  margin-top: -15px;
 }
 
 .bk-dark {
