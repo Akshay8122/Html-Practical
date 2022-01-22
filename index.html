@@ -1,22 +1,315 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <title>Flipcart home page</title>
-  </head>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Online Shopping site</title>
+</head>
+
+<body>
+  <!--Navbar-->
+
+  <nav class="navbar navbar-expand-lg bg-primary fixed-top py-1">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="./images/f.png" class="logo" width="95" height="45" /></a>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <input class="form-control" type="search" placeholder="Search for Products,brand and more" />
+        <button class="btn"><i class="fa fa-search"></i></button>
+      </div>
+
+      <div> <button class="b1">Login</button> </div>
+      <div><a class="nav-link dropdown-toggle ml-0"> More </a> </div>
+      <div> <button class="cart"> <i class="fa fa-shopping-cart cart"> Cart </i> </button>
+      </div>
+    </div>
+    </div>
+  </nav>
+
+  <!--Navbar End-->
+
+  <!-- Deal section-->
+
+  <div class="Container-fluid pt-lg-5">
+    <section class="Deal-section">
+      <div class="container p-1 pt-lg-5 ml-0">
+        <div class="row">
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (8).png" width="60%" height="60%" />
+              </div>
+              <p class="caption"> Top offers </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (7).png" width="60%" height="60%" />
+              </div>
+              <p class="caption"> Grocery </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image.png" width="60%" height="60%" />
+              </div>
+              <p class="caption"> Mobiles </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (2).png" width="60%" height="60%" />
+              </div>
+              <p class="caption">
+                Fashion &nbsp;<i class="fa fa-chevron-down" style="font-size: small"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (5).png" width="60%" height="60%" />
+              </div>
+              <p class="caption">
+                Electronics &nbsp;<i class="fa fa-chevron-down" style="font-size: small"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (1).png" width="60%" height="60%" />
+              </div>
+              <p class="caption">
+                Home &nbsp;<i class="fa fa-chevron-down" style="font-size: small"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (3).png" width="60%" height="60%" />
+              </div>
+              <p class="caption">
+                Aplliances &nbsp;<i class="fa fa-chevron-down" style="font-size: small"></i>
+              </p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (4).png" width="60%" height="60%" />
+              </div>
+              <p class="caption">Travel</p>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="well">
+              <div class="overlay">
+                <img src="./images/MicrosoftTeams-image (6).png" width="60%" height="60%" />
+              </div>
+              <p class="caption">
+                Toys &nbsp;<i class="fa fa-chevron-down" style="font-size: small"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <!--Complete Deal Section-->
+
+    <!----Deals Of the Day-->
+    <section>
+      <div class="container pt-mb-lg-5">
+        <div class="box">
+          <span class="text1"> Deals Of the Day </span>
+          <img src="./images/images.png" class="clock" alt="clock"/>
+          <span class="time"> 22:07:36 Left </span>
+          <button class="bk-light bg-primary">VIEW ALL</button>
+          <hr class="light" />
+
+
+          <div class="container p-1 pt-lg-5">
+            <div class="row">
+              <div class="col-sm-2">
+                <div class="well">
+                  <div class="overlay">
+                    <img src="./images/clock.jpeg" alt="clock" height="50%" width="50%" />
+                  </div>
+                  <p class="caption1">Casio,Fastrack..</p>
+                  <p><span class="offers">Upto 10% Off</span></p>
+                  <p class="text">Knockout Deals!</p>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="well">
+                  <div class="overlay">
+                    <img src="./images/home-temples.jpeg" alt="clock" height="70%" width="70%" />
+                  </div>
+                  <p class="caption1">Home,Temples.. </p>
+                  <p><span class="offers"> Extra 10% Off </span></p>
+                  <p class="text">Best Furniture</p>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="well">
+                  <div class="overlay">
+                    <img src="./images/tablet.jpeg" alt="clock" height="70%" width="70%" />
+                  </div>
+                  <p class="caption1">Premium Tablet...</p>
+                  <p><span class="offers"> Extra 10% Off </span></p>
+                  <p class="text">For All Top Models</p>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="well">
+                  <div class="overlay">
+                    <img src="./images/decoration.jpeg" alt="clock" height="54%" width="54%" />
+                  </div>
+                  <p class="caption1">Home Decora..</p>
+                  <p><span class="offers"> From Rs.79 </span></p>
+                  <p class="text">Lowest price Ever</p>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="well">
+                  <div class="overlay">
+                    <img src="./images/metronaut.jpeg" alt="clock" height="47%" width="47%" />
+                  </div>
+                  <p class="caption1">Provogue..</p>
+                  <p><span class="offers"> From Rs.249
+                    </span></p>
+                  <p class="text">Jackets,dress &..</p>
+                </div>
+              </div>
+
+              <div class="col-sm-2">
+                <div class="well">
+                  <div class="overlay">
+                    <img src="./images/lava.jpeg" alt="clock" height="30%" width="30%" />
+                  </div>
+                  <p class="caption1">LAVA</p>
+                  <p><span class="offers"> Flat Rs.830 off </span></p>
+                  <p class="text">Now Rs.999</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./images/card.png" alt="card" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!----End Deals Of the Day-->
+
+    <!-- Books and Musical section -->
+    <section>
+      <div class="container p-1 pt-lg-2 ml-auto">
+        <div class="box1">
+          <button class="bk-dark bg-primary">VIEW ALL</button>
+          <p><span class="text1">Books And music instruments </span></p>
+          <p class="shop">Shop Now!</p>
+          <hr class="dark" />
+
+          <div class="row">
+            <div class="col-sm-2">
+              <div class="well">
+                <div class="overlay">
+                  <img src="./images/harmonium.jpeg" alt="clock" height="80%" width="80%" />
+                </div>
+                <p class="caption1">Harmoniums</p>
+                <p><span class="offers">Upto 60% Off</span></p>
+                <p class="text">Shop Now!</p>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="well">
+                <div class="overlay">
+                  <img src="./images/flutes.jpeg" alt="clock" height="25%" width="25%" />
+                </div>
+                <p class="caption1">Flutes</p>
+                <p><span class="offers">Upto 80% Off</span></p>
+                <p class="text">Shop Now!</p>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="well">
+                <div class="overlay">
+                  <img src="./images/gitar1.jpeg" alt="clock" height="65%" width="65%" />
+                </div>
+                <p class="caption1"> Acoustic Guitars </p>
+                <p><span class="offers">Strarting Rs.1799</span></p>
+                <p class="text">juarez,Revel.</p>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="well">
+                <div class="overlay">
+                  <img src="./images/microphone.jpeg" alt="clock" height="39%" width="39%" />
+                </div>
+                <p class="caption1">Accessories</p>
+                <p><span class="offers">Upto 80% Off</span></p>
+                <p class="text">Shop Now!</p>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="well">
+                <div class="overlay">
+                  <img src="./images/Musical.jpeg" alt="clock" height="65%" width="65%" />
+                </div>
+                <p class="caption1">Microphones</p>
+                <p><span class="offers">Upto 80% Off</span></p>
+                <p class="text">Shop Now!</p>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="well">
+                <div class="overlay">
+                  <img src="./images/gitar.jpeg" alt="clock" height="50%" width="50%" />
+                </div>
+                <p class="caption1"> Acoustic Guitars </p>
+                <p><span class="offers">Strarting Rs.5000</span></p>
+                <p class="text">juarez,Revel.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Books and Musical section -->
+  </div>
+</body>
+
+</html>
